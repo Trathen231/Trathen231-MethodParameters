@@ -22,10 +22,10 @@ public class Lab {
      * return text;    | return String text;
      * return;         | return String;
      *
-     * @param text is a parameter passed into this method by whatever called it.
+     * @param text  is a parameter passed into this method by whatever called it.
      * @return text.
      */
     public String copy(String text){
-        return "return text please!";
+        return text;
     }
 }
